@@ -6,31 +6,39 @@
   
   body {
     height: 100vh;
-    background-color:aquamarine;
+    background-color:white;
   }
   
   .cuadrado {
     width: 100px;
     height: 100px;
-    background-color: blue;
+    background-color: black;
     position: absolute;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    color: white;
+    font-size: 24px;
   }
+  /*Esquina 1*/
   .cuadrado1 {
     top: 0;
     left: 0;
+    size: 100px;
+
   }
-  
-  .cuadrado2 {
+  /*Esquina 2*/
+  .cuadrado3 {
     top: 0;
     right: 0;
   }
-  
-  .cuadrado3 {
+  /*Esquina 3*/
+  .cuadrado7 {
     bottom: 0;
     left: 0;
   }
-  
-  .cuadrado4 {
+  /*Esquina 4*/
+  .cuadrado9 {
     bottom: 0;
     right: 0;
   }
@@ -42,26 +50,26 @@
     transform: translate(-50%, -50%);
   }
   
-  /* Bordes laterales */
-  .cuadrado6 {
+  /* laterales */
+  .cuadrado2 {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
   }
   
-  .cuadrado7 {
+  .cuadrado8 {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
   }
   
-  .cuadrado8 {
+  .cuadrado4 {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
   }
   
-  .cuadrado9 {
+  .cuadrado6 {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
